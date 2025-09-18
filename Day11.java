@@ -11,18 +11,8 @@ public class Day11 {
         // input password
         System.out.print("Masukkan password: ");
         String password = input.nextLine();
-
-        // input konfirmasi password
-        System.out.print("Konfirmasi password: ");
-        String konfirmasi = input.nextLine();
-
-        // cek apakah password cocok
-        if (password.equals(konfirmasi)) {
-            System.out.println("Akun berhasil dibuat");
-            System.out.println("Username: " + username);
-        }
-        else {
-            System.out.println("Password tidak cocok");
+        System.out.println("Akun berhasil dibuat");
+        System.out.println("Username: " + username);
         }
     }
 }
